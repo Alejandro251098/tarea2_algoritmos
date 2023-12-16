@@ -2,7 +2,7 @@
 
 def orden_desc(lista):
     
-    for i in range(len(lista) ):
+    for i in range(len(lista) -1):
         mayor = i
         
         for j in range(i+1 ,len(lista)):
